@@ -6,6 +6,8 @@ import random
 root=Tk()
 root.title('Password Generator')
 root.geometry("300x100")
+root.maxsize(300,100)
+root.minsize(300,100)
 
 def generate():
     password=''
